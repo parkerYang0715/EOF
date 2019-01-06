@@ -1,0 +1,19 @@
+9000     Timestep	
+10	  nxp			  number of grid points along x-direction
+720	  nyp			  number of grid points along y-direction
+1.0e-12   tol
+0.889e-6    visco 
+2.0e-9    diffusion coefficient ! m^2/s
+2.0e-8    Dref=10.0D0*10.0D0**(-8)  ! m^2/s
+6.95e-10  epi: ! epi= epi_r*epi_0   ! epi_0~=8.854187*10^-12 F/m
+5.56e-9   epi_ref  
+96485.30  Faraday_con
+1.38e-23  kb ! Boltzmann constant  (J/K)
+298.0     Temperature
+1.602e-19 e: unit charge
+1.0e-8    Lref  (m)
+120.0     Uref  (m/s)
+1.0       Cref  (mol/m^3)
+-8000.0  Ex    (V/m) 
+0.   dP     !(1.250D0*10.0D0**(-7)*(16.0D0/80.0D0)**3*3.0D0**2)
+-0.01   zeta   
