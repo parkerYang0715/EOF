@@ -458,7 +458,8 @@ use physical_constant
 implicit none
 integer::i
 allocate(f(0:8,0:nxp,0:nyp),f_potential(0:4,0:nxp,0:nyp),f_nega(0:4,0:nxp,0:nyp),f_posi(0:4,0:nxp,0:nyp))
-allocate(psi(0:nxp,0:nyp),psi_old(0:nxp,0:nyp),rho(0:nxp,0:nyp),weight(0:8),weight_p(0:4),u(0:nxp,0:nyp),v(0:nxp,0:nyp),con_n(0:nxp,0:nyp),con_p(0:nxp,0:nyp))
+allocate(psi(0:nxp,0:nyp),psi_old(0:nxp,0:nyp),rho(0:nxp,0:nyp),weight(0:8),weight_p(0:4))
+allocate(u(0:nxp,0:nyp),v(0:nxp,0:nyp),con_n(0:nxp,0:nyp),con_p(0:nxp,0:nyp))
 allocate(cx(0:8),cy(0:8))
 allocate(gradP_x(0:nxp,0:nyp),gradP_y(0:nxp,0:nyp))
 allocate(streamfun_s(0:nxp,0:nyp),streamfun_p(0:nxp,0:nyp),streamfun_T(0:nxp,0:nyp))
