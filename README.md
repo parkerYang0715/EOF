@@ -1,3 +1,5 @@
+to compile:  gfortran EOF.f90 (Cygwin or other terminal)
+
 # EOF
 Simulation of electro-osmotic flow by Lattice Boltzmann method (Fortran)
 
